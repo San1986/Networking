@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D474B871CC6C88500BE3E57 /* dnsResolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D474B851CC6C88500BE3E57 /* dnsResolver.cpp */; };
+		5D474B881CC6C88500BE3E57 /* dnsResolver.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5D474B861CC6C88500BE3E57 /* dnsResolver.hpp */; };
+		5D474B901CC6CE7600BE3E57 /* DNSResolverTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5D474B8F1CC6CE7600BE3E57 /* DNSResolverTests.mm */; };
+		5D474B921CC6CE7600BE3E57 /* libDNSResolver.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DBA3F011CC12C15002119AF /* libDNSResolver.a */; };
+		5DBA3F0F1CC133D2002119AF /* dnsUDPSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA3F0D1CC133D2002119AF /* dnsUDPSocket.cpp */; };
+		5DBA3F101CC133D2002119AF /* dnsUDPSocket.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5DBA3F0E1CC133D2002119AF /* dnsUDPSocket.hpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D474B931CC6CE7600BE3E57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DBA3EF91CC12C15002119AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DBA3F001CC12C15002119AF;
+			remoteInfo = DNSResolver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D474B851CC6C88500BE3E57 /* dnsResolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dnsResolver.cpp; sourceTree = "<group>"; };
+		5D474B861CC6C88500BE3E57 /* dnsResolver.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = dnsResolver.hpp; sourceTree = "<group>"; };
+		5D474B8D1CC6CE7600BE3E57 /* DNSResolverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNSResolverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D474B8F1CC6CE7600BE3E57 /* DNSResolverTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DNSResolverTests.mm; sourceTree = "<group>"; };
+		5D474B911CC6CE7600BE3E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DBA3F011CC12C15002119AF /* libDNSResolver.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDNSResolver.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBA3F0C1CC1326D002119AF /* dnsResolverConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dnsResolverConstants.h; sourceTree = "<group>"; };
+		5DBA3F0D1CC133D2002119AF /* dnsUDPSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dnsUDPSocket.cpp; sourceTree = "<group>"; };
+		5DBA3F0E1CC133D2002119AF /* dnsUDPSocket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = dnsUDPSocket.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D474B8A1CC6CE7600BE3E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D474B921CC6CE7600BE3E57 /* libDNSResolver.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBA3EFE1CC12C15002119AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D474B8E1CC6CE7600BE3E57 /* DNSResolverTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D474B8F1CC6CE7600BE3E57 /* DNSResolverTests.mm */,
+				5D474B911CC6CE7600BE3E57 /* Info.plist */,
+			);
+			path = DNSResolverTests;
+			sourceTree = "<group>";
+		};
+		5DBA3EF81CC12C15002119AF = {
+			isa = PBXGroup;
+			children = (
+				5D474B851CC6C88500BE3E57 /* dnsResolver.cpp */,
+				5D474B861CC6C88500BE3E57 /* dnsResolver.hpp */,
+				5DBA3F0D1CC133D2002119AF /* dnsUDPSocket.cpp */,
+				5DBA3F0E1CC133D2002119AF /* dnsUDPSocket.hpp */,
+				5DBA3F0C1CC1326D002119AF /* dnsResolverConstants.h */,
+				5D474B8E1CC6CE7600BE3E57 /* DNSResolverTests */,
+				5DBA3F021CC12C15002119AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DBA3F021CC12C15002119AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DBA3F011CC12C15002119AF /* libDNSResolver.a */,
+				5D474B8D1CC6CE7600BE3E57 /* DNSResolverTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5DBA3EFF1CC12C15002119AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D474B881CC6C88500BE3E57 /* dnsResolver.hpp in Headers */,
+				5DBA3F101CC133D2002119AF /* dnsUDPSocket.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5D474B8C1CC6CE7600BE3E57 /* DNSResolverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D474B951CC6CE7600BE3E57 /* Build configuration list for PBXNativeTarget "DNSResolverTests" */;
+			buildPhases = (
+				5D474B891CC6CE7600BE3E57 /* Sources */,
+				5D474B8A1CC6CE7600BE3E57 /* Frameworks */,
+				5D474B8B1CC6CE7600BE3E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D474B941CC6CE7600BE3E57 /* PBXTargetDependency */,
+			);
+			name = DNSResolverTests;
+			productName = DNSResolverTests;
+			productReference = 5D474B8D1CC6CE7600BE3E57 /* DNSResolverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DBA3F001CC12C15002119AF /* DNSResolver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DBA3F051CC12C15002119AF /* Build configuration list for PBXNativeTarget "DNSResolver" */;
+			buildPhases = (
+				5DBA3EFD1CC12C15002119AF /* Sources */,
+				5DBA3EFE1CC12C15002119AF /* Frameworks */,
+				5DBA3EFF1CC12C15002119AF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DNSResolver;
+			productName = DNSResolver;
+			productReference = 5DBA3F011CC12C15002119AF /* libDNSResolver.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DBA3EF91CC12C15002119AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = dnstest;
+				TargetAttributes = {
+					5D474B8C1CC6CE7600BE3E57 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					5DBA3F001CC12C15002119AF = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 5DBA3EFC1CC12C15002119AF /* Build configuration list for PBXProject "DNSResolver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DBA3EF81CC12C15002119AF;
+			productRefGroup = 5DBA3F021CC12C15002119AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DBA3F001CC12C15002119AF /* DNSResolver */,
+				5D474B8C1CC6CE7600BE3E57 /* DNSResolverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D474B8B1CC6CE7600BE3E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D474B891CC6CE7600BE3E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D474B901CC6CE7600BE3E57 /* DNSResolverTests.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBA3EFD1CC12C15002119AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D474B871CC6C88500BE3E57 /* dnsResolver.cpp in Sources */,
+				5DBA3F0F1CC133D2002119AF /* dnsUDPSocket.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D474B941CC6CE7600BE3E57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DBA3F001CC12C15002119AF /* DNSResolver */;
+			targetProxy = 5D474B931CC6CE7600BE3E57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5D474B961CC6CE7600BE3E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DNSResolverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dnstest.DNSResolverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D474B971CC6CE7600BE3E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DNSResolverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dnstest.DNSResolverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5DBA3F031CC12C15002119AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5DBA3F041CC12C15002119AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5DBA3F061CC12C15002119AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5DBA3F071CC12C15002119AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D474B951CC6CE7600BE3E57 /* Build configuration list for PBXNativeTarget "DNSResolverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D474B961CC6CE7600BE3E57 /* Debug */,
+				5D474B971CC6CE7600BE3E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DBA3EFC1CC12C15002119AF /* Build configuration list for PBXProject "DNSResolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBA3F031CC12C15002119AF /* Debug */,
+				5DBA3F041CC12C15002119AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DBA3F051CC12C15002119AF /* Build configuration list for PBXNativeTarget "DNSResolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBA3F061CC12C15002119AF /* Debug */,
+				5DBA3F071CC12C15002119AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DBA3EF91CC12C15002119AF /* Project object */;
+}
